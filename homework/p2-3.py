@@ -17,7 +17,7 @@ def calc_E(Pid, Qid, theta):
     v = la.expm(1j * theta / 2 * P) @ v0
     return v.conj().T @ Q @ v
 
-plt.figure(figsize = (11, 11), dpi = 80)
+plt.figure(figsize = (12, 10), dpi = 80)
 
 for i in range(0, 3):
     for j in range(0, 3):
