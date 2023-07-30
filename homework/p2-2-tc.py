@@ -12,7 +12,7 @@ theta = 1
 
 print(f"{P = }")
 
-c.exp1(0, theta = 1, unitary = P)
+c.exp1(0, theta = -theta, unitary = P)
 
 print(c.to_qir())
 print(c.state())
