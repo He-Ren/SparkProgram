@@ -32,8 +32,8 @@ def getf(Pi, Qi):
     return f
 
 
-for Pi in [1]:
-    for Qi in [2]:
+for Pi in range(3):
+    for Qi in range(3):
         
         f = getf(Pi, Qi)
         
